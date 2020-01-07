@@ -1,3 +1,7 @@
+:root {
+  --main-bg-color:  #333333;
+}
+
 body {
     background-color: #f8f8f8;
 }
@@ -7,7 +11,7 @@ body {
  ***********************************************************************/
 
 .navbar {
-  background-color: #546e7a;
+  background-color: #000000;
   box-shadow: 0 1.5px 3px rgba(0,0,0,.24), 0 3px 8px rgba(0,0,0,.05);
   border: none;
   border-radius: 0px;
@@ -87,7 +91,7 @@ body {
   right: 0px;
   padding: inherit;
   width: 100%;
-  background-color: #546e7a;
+  background-color: var(--main-bg-color);
 }
 
 .wm-top-search {
@@ -220,7 +224,7 @@ body {
 }
 
 .wm-toctree a, .wm-toctree a:visited, .wm-toctree a:hover, .wm-toctree a:focus {
-  color: #546e7a;
+  color: var(--main-bg-color);
   text-decoration: none;
   outline: none;
 }
@@ -263,7 +267,7 @@ body {
 }
 
 .wm-toc-li.wm-current, .wm-toc-li.wm-current:hover {
-  background-color: #546e7a;
+  background-color: var(--main-bg-color);
   color: white;
 }
 
@@ -279,7 +283,7 @@ body {
   font-size: 1.2rem;
   line-height: 1.2rem;
   overflow: hidden;
-  border-left: 1px solid #546e7a;
+  border-left: 1px solid var(--main-bg-color);
 }
 
 .wm-page-toc-opener > .wm-toc-text::after {
@@ -344,7 +348,7 @@ body {
   display: inline-block;
   max-width: 48%;
   white-space: nowrap;
-  color: #546e7a;
+  color: var(--main-bg-color);
   text-align: right;
 }
 
@@ -357,7 +361,7 @@ body {
 }
 
 .wm-article-nav > a, .wm-article-nav > a:visited, .wm-article-nav > a:hover, .wm-article-nav > a:focus {
-  color: #546e7a;
+  color: var(--main-bg-color);
   text-decoration: none;
   outline: none;
 }
